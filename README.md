@@ -15,7 +15,13 @@
 	--> Used for keeping winequality data.
 
 --> git init	// All files to green means untracked	(Symbol 'U')
+
 --> dvc init	// .dvcignore got created
+
 --> dvc add data_given/winequality.csv
+
 --> git add .	// adding the current working directory data to git  (Symbol 'A')
+
 --> git commit -m "first commit"	// All 'A' symbols for files are gone.
+
+--> git add . && git commit -m "update README.md changes to git"
