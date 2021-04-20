@@ -25,3 +25,14 @@
 --> git commit -m "first commit"	// All 'A' symbols for files are gone.
 
 --> git add . && git commit -m "update README.md changes to git"
+
+Till now we had made changes in local git
+
+Now we will made changes in remote git
+
+--> git remote add origin https://github.com/sujithreddyk/simple-dvc-git-demo.git
+
+--> git branch -M main
+
+--> git push -u origin main
+
