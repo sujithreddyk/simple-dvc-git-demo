@@ -51,3 +51,24 @@ git branch -M main
 ```bash
 git push -u origin main
 ```
+tox command - 
+```bash
+tox
+```
+for re-build - 
+```bash
+tox -r
+```
+pytest command - 
+```bash
+pytest -V
+```
+
+setup commands - 
+```bash
+pip install -e .
+```
+Building own package commands-
+```bash
+python setup.py sdist bdist_wheel
+```
